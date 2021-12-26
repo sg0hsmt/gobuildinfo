@@ -6,6 +6,9 @@ https://pkg.go.dev/debug/buildinfo@go1.18beta1
 
 Note: This was created to help me learn about go 1.18.
 
+Japanese article:
+https://qiita.com/sg0hsmt/items/6d852c50baa37a0c957e
+
 ## Requirements
 
 - Go 1.18 or later
