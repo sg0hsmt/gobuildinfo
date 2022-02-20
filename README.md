@@ -2,7 +2,7 @@
 
 Print build info from binary, using buildinfo package.
 
-https://pkg.go.dev/debug/buildinfo@go1.18beta1
+https://pkg.go.dev/debug/buildinfo@go1.18rc1
 
 Note: This was created to help me learn about go 1.18.
 
