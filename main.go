@@ -22,7 +22,7 @@ func main() {
 			log.Fatalln("can not read build info from runtime")
 		}
 
-		print(info)
+		fmt.Println(info)
 
 		return
 	}
@@ -32,14 +32,5 @@ func main() {
 		log.Fatalln("can not read build info from file:", err)
 	}
 
-	print(info)
-}
-
-func print(info *debug.BuildInfo) {
-	buf, err := info.MarshalText()
-	if err != nil {
-		log.Fatalln("marshal failed:", err)
-	}
-
-	fmt.Println(string(buf))
+	fmt.Println(info)
 }

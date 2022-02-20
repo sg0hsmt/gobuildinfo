@@ -11,7 +11,7 @@ https://qiita.com/sg0hsmt/items/6d852c50baa37a0c957e
 
 ## Requirements
 
-- Go 1.18 or later
+- Go 1.18-rc.1 or later
 
 ## Output Examples
 
@@ -48,7 +48,7 @@ build   vcs.modified=true
 
 ```console
 $ go run main.go
-go      go1.18beta1
+go      go1.18rc1
 path    command-line-arguments
 build   -compiler=gc
 build   CGO_ENABLED=1
@@ -63,13 +63,13 @@ build   GOAMD64=v1
 
 ## Develop Setting (VSCode)
 
-Download and install go1.18beta1.
+Download and install go1.18rc1.
 
-https://pkg.go.dev/golang.org/dl/go1.18beta1
+https://pkg.go.dev/golang.org/dl/go1.18rc1
 
 ```console
-$ go install golang.org/dl/go1.18beta1@latest
-$ go1.18beta1 download
+$ go install golang.org/dl/go1.18rc1@latest
+$ go1.18rc1 download
 ```
 
 Change vscode settings.
@@ -79,7 +79,7 @@ https://github.com/golang/vscode-go/blob/master/docs/settings.md#goalternatetool
 ```json
 {
   "go.alternateTools": {
-    "go": "go1.18beta1"
+    "go": "go1.18rc1"
   }
 }
 ```
